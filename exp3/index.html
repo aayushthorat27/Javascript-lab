@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Utilities</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h2>String Utilities</h2>
+    <p>By Parth Manekar</p>
+
+    <!-- Reverse -->
+    <h3>Reverse String</h3>
+    <input id="revIn" type="text" placeholder="Enter string">
+    <button onclick="reverseStr()">Reverse</button>
+    <p id="revOut"></p>
+    <hr>
+
+    <!-- Palindrome -->
+    <h3>Palindrome Check</h3>
+    <input id="palIn" type="text" placeholder="Enter string">
+    <button onclick="checkPal()">Check</button>
+    <p id="palOut"></p>
+    <hr>
+
+    <!-- Replace First -->
+    <h3>Replace First Occurrence</h3>
+    <input id="firstStr" placeholder="Original string">
+    <input id="firstOld" placeholder="Old text">
+    <input id="firstNew" placeholder="New text">
+    <button onclick="replaceFirst()">Replace</button>
+    <p id="firstOut"></p>
+    <hr>
+
+    <!-- Replace All -->
+    <h3>Replace All Occurrences</h3>
+    <input id="allStr" placeholder="Original string">
+    <input id="allOld" placeholder="Old text">
+    <input id="allNew" placeholder="New text">
+    <button onclick="replaceAll()">Replace All</button>
+    <p id="allOut"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

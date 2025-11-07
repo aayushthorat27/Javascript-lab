@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>String Comparison - Parth Manekar 42236</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h2>🔤 String Comparison</h2>
+    <p class="tag">By <b>Parth Manekar — 42236</b></p>
+
+    <input id="s1" type="text" placeholder="Enter first string">
+    <input id="s2" type="text" placeholder="Enter second string">
+
+    <div class="btns">
+      <button onclick="compareStrings()">Compare ✅</button>
+      <button onclick="clearAll()" class="secondary">Clear 🧹</button>
+    </div>
+
+    <p id="warn"></p>
+    <div id="res" hidden>
+      <p>Length: <span id="len"></span></p>
+      <p>Loose (==): <span id="loose"></span></p>
+      <p>Strict (===): <span id="strict"></span></p>
+      <p>Order: <span id="order"></span></p>
+    </div>
+
+    <p class="note">Note: (==) allows type coercion, (===) checks value & type.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplication Table - Parth Manekar 42236</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h2>Multiplication Table Generator</h2>
+    <p>By <strong>Parth Manekar — 42236</strong></p>
+
+    <input id="num" type="number" placeholder="Enter a number">
+
+    <div class="btns">
+      <button onclick="generate('for')">For Loop</button>
+      <button onclick="generate('while')">While Loop</button>
+      <button onclick="generate('doWhile')">Do While Loop</button>
+    </div>
+
+    <p id="warn"></p>
+    <h3 id="loopName"></h3>
+    <ul id="result"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

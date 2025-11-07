@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Shape Area Calculator - Parth Manekar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Shape Area Calculator</h1>
+    <p>Developed by <strong>Parth Manekar</strong></p>
+
+    <!-- Triangle -->
+    <section class="card">
+      <h3> Triangle (Heron’s Formula)</h3>
+      <input id="a" placeholder="Side A" type="number">
+      <input id="b" placeholder="Side B" type="number">
+      <input id="c" placeholder="Side C" type="number">
+      <button onclick="calcTriangle()">Calculate</button>
+      <p id="triangleResult"></p>
+    </section>
+
+    <!-- Rectangle -->
+    <section class="card">
+      <h3>⬛ Rectangle</h3>
+      <input id="length" placeholder="Length" type="number">
+      <input id="width" placeholder="Width" type="number">
+      <button onclick="calcRectangle()">Calculate</button>
+      <p id="rectangleResult"></p>
+    </section>
+
+    <!-- Circle -->
+    <section class="card">
+      <h3>⚪ Circle</h3>
+      <input id="radius" placeholder="Radius" type="number">
+      <button onclick="calcCircle()">Calculate</button>
+      <p id="circleResult"></p>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
